@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+
+    <center><h2 style="background-color: aquamarine;">It registration Page</h2>
+   <div style="background-color: bisque;">
+       <form name="PatientRegi" id="patientRegi" action="Home.html" method="post">
+
+        <table>
+           <mark><h3>Patient Registration Form</h3></mark> 
+       
+            <tr>
+                <td> <label text="FirstName">First Name</label>  </td>
+                <td> <input type="text" id="firstname" placeholder="FirstName" required> <br>  </td>
+            </tr>
+
+           
+           
+           <tr>
+               <td>
+                <label text="lastName">Second Name</label></td>
+                <td>
+                    <input type="text" id="secondName" placeholder="LastName" required> <br></td>
+           </tr>
+           <tr>
+               <td>
+                <label text="UserId"> User Name</label></td>
+                <td>
+                    <input type="email" id="userId" placeholder="UserName"> <br><br></td>
+           </tr>
+           <tr>
+            <td>
+             <label text="UserId"> Password</label></td>
+             <td>
+                 <input type="password" id="password" placeholder="Paswword" minlength="10"> <br><br></td>
+        </tr>
+
+
+           <tr>
+               <td>
+                <label id="lbladdress">Address</label></td>
+                <td>
+                    <textarea rows="5" cols="22" placeholder="Address" id="address" name="address"></textarea><br></td>
+                    </tr>
+
+<tr>
+    <td>
+        <label id="gender" >Gender</label></td>
+        <td>  <input type="radio" name="genderlabel" value="Male">Male
+            <input type="radio"  name="genderlabel" value="Female">FeMale <br></td>
+</tr>
+          
+
+           <tr>
+               <td>
+                <label id="city" >City</label></td>
+                <td> <select>  
+                    <option value = "pune"> Pune 
+                    </option>  
+                    <option value = "nashik"> Nashik   
+                    </option>  
+                    <option value = "mumbai"> Mumbai  
+                    </option>  
+                    <option value = "delhi"> Delhi  
+                    </option>  
+                    </select> <br></td>
+           </tr>
+          
+
+<tr>
+    <td>
+        <label id="state" >State</label></td>
+        <td> <select    >  
+            <option value = "MH"> Maharashtra 
+            </option>  
+            <option value = "UP"> Up   
+            </option>  
+            <option value = "MP"> Mp  
+            </option>  
+            <option value = "AP"> Ap  
+            </option>  
+        </select> <br>
+</td>
+</tr>
+           <tr>
+               <td>  <lable id="Dob">DOB</lable></td>
+               <td>
+                <input type="date" required><br></td>
+           </tr>
+              
+
+           <tr>
+               <td>
+                <label >Add PreScription</label></td>
+                <td> <input type="file"></td>
+           </tr>
+          
+           <tr>
+               <td><input type="submit"></td>
+              <td> <input type="reset"></td>
+           </tr>
+               
+            </table>
+       </form>
+   </div>
+</center> 
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        .pm{
+            background-color: bisque;
+        }
+        .am{
+            background-color: aqua;
+        }
+        th{
+            padding: 3px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-transform: uppercase;
+            
+        }
+
+        td{
+            padding-left: 5px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        table{
+
+            border-radius:5%;
+            border-spacing: 7px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="navbar">
+        <ul>
+          <li><a href="Home.html"> Home</a></li>
+          
+          <li><a href="Contactus.html"> Contact Us</a></li>
+          
+          <li><a href="AboutUs.html"> About Us</a></li>
+          
+          <li><a href="PatientRegistration.html"> Patient Registration</a></li>
+          
+          <li><a href="doctorOtpSchedule.html"> Doctor OPD</a></li>
+          
+          <li><a href="Facilities.html"> Facilities</a></li>
+        </ul>
+</div>
+
+
+
+
+    <h3>Ity doctor Otp Schedule</h3>
+
+<div>
+    <table border="2"  width="50%">
+
+        <!-- <colgroup>
+            <col>
+            <col span="3" class="pm" style="background-color: red;">
+        </colgroup> -->
+
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+<tr>
+        <th colspan="2"><b>Schedule</b></th>
+         <th rowspan="2"><b>Topic</b></th>   
+</tr>
+<tr>
+    <th><b>begin</b></th>
+    <th><b>End</b></th>
+</tr>
+<tr>
+    <td>Monday</td>
+    <td class="am" >8.00am</td>
+    <td class="pm">5.00 pm</td>
+    <td>Introduction of XML</td>
+</tr>
+
+<tr>
+    <td rowspan="3">Thesday</td>
+    <td class="am">8.00am</td>
+    <td class="pm">5.00 pm</td>
+    <td rowspan="3">Introduction of Xml</td>
+</tr>
+<tr>
+    <td class="am">11.00 am</td>
+    <td class="pm">12.00 pm</td>
+</tr>
+<tr>
+
+    <td  class="am">2.00 am</td>
+    <td class="pm">5.00 pm</td>
+</tr>
+<tr>
+
+</tr>
+<tr>
+    <td>Wednseday</td>
+    <td class="pm">8.00pm</td>
+    <td class="pm">12.00 pm</td>
+    <td>XSl fromatting objects</td>
+</tr>
+    </table>
+</div>
+
+</body>
+</html>
